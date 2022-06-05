@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    background-color: rgb(43, 46, 56);
+}  
+
+.homeclass {
+    padding: 0;
+    height: 0;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+.homeclass a {
+    font-family: 'opensans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 5%;
+}
