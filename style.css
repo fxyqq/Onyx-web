@@ -66,7 +66,7 @@
 #particles-js{
     width: 100%;
     min-height: 170vh;  
-    background: rgb(54, 54, 54);
+    background-image: linear-gradient(to top, #F5F5F5 0%, #CCD0D9 100%);
     font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;;
@@ -119,8 +119,24 @@ li, a, button {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: rgb(26, 27, 41);
-    z-index: 500;
+    background-color: rgb(66, 66, 66);
+}
+
+#n_8x_Minecraft_Utility {
+    left: 232px;
+    top: 487px;
+    position: absolute;
+    overflow: visible;
+    width: 378px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
 }
 
 
@@ -137,22 +153,34 @@ li, a, button {
 }
 
 #navbar__logo {
-    font-family: 'Open Sans', sans-serif;;
-    color: white;
-    font-weight: 200;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    padding-right: 900px;
-    z-index: 500;
+    left: 52px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
 }
 
 .homeclass {
-    padding: 0;
-    height: 0;
-    z-index: 500;
+    left: 333px;
+    top: 393px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1px;
 }
 
 .homeclass a {
