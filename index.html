@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Onyx - Minecraft Utility</title>
-
-  <link rel="stylesheet" , href="style.css" />
-  <script defer src="resources/all.css"></script>
-  <script src="https://kit.fontawesome.com/4e5017ffdb.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta content="Onyx Client" property="og:title">
+    <meta content="Clean, Cheap, Bypassing." property="og:description">
+    <meta content="https://onyxware.xyz" property="og:url">
+    <title>Onyx - Minecraft Utility.</title>
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul class="nav__links">
-        <a href="index.html" id="navbar__logo">Onyx</a>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-      </ul>
+
+    <nav class="navbar">
+        <h1 class="name">Onyx</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a class="ctn" href="https://discord.gg/svDuBwMty8">Discord</a></li>
+        </ul>
     </nav>
-    <div id="particles-js">
-      <div class="video-wrapper" id="vid1" style="visibility: visible">
-        <iframe
-          src="https://www.youtube.com/embed/UhJUY2rDc9M?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"></iframe>
-      </div>
 
-      <div class="video-wrapper1" id="vid2" style="visibility: hidden">
-        <iframe
-          src="https://www.youtube.com/embed/UhJUY2rDc9M?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"></iframe>
-      </div>
+    <header>
+        <div class="header-content">
+            <h1>Onyx</h1>
+            <h2>1.8.9 Minecraft Utility Mod.</h2>
+            <!-- <h8><a class="ctn" href="" onclick="scrollToInformation()">Learn More</a></h8> -->
+        </div>
+    </header>
 
-      <div class="homeclass">
-        <section id="home">
-            <span>Onyx</span>
-        </section>
-      </div>
-      <div id="n_8x_Minecraft_Utility">
-        <span>1.8x Minecraft Utility</span>
-      </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Clean</div>
+                <p class="cardText">Onyx is focused on CLEAN Visuals, Performance Friendly!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Cheap</div>
+                <p class="cardText">Our mission is to deliver the cheapest client for its features.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Customizable</div>
+                <p class="cardText">Every Feature in the client is customizable.</p>
+            </div>
+        </div>
     </div>
-    <script src="resources/particles.js"></script>
-    <script src="resources/particle-app.js"></script>
 
-    <div class="bottom_thing">
-      <section id="about">
-        <h1>© Copyright 2021-2022 - Onyx Team</h1>
-      </section>
-      <li><a href="#terms">Terms of Service</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </div>
-  </header>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <p class="text-gray-400">Onyxware © 2019-2022, All Rights Reserved</p>
+            </div>
+            <div class="footer-content-right">
+                <a href="tos.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Terms of services</a>
+                <a href="privacy.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Privacy policy</a>
+                <a href="https://discord.gg/svDuBwMty8" target="_blank" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Discord</a>        
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
