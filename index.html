@@ -4,55 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <meta content="Onyx Client" property="og:title">
     <meta content="Clean, Cheap, Bypassing." property="og:description">
     <meta content="https://onyxware.xyz" property="og:url">
     <title>Onyx - Minecraft Utility.</title>
 </head>
 <body>
-    <main>
-        <script>
-            function audioPlay() {
-                var audio = document.getElementById("audio");
-                audio.volume = 0.4;
-                audio.play()
-            }
 
-            function videoPlay() {
-                var video = document.getElementById("video");
-                video.play()
-            }
-        </script>
-        <input type="checkbox" autocomplete="off" id="overlay-toggle">
-        <div class="overlay fullscreen">
-            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
-                    <span class="hover" style=" font-size: 0.6em;">click to enter...</span>
-            </label>
+    <nav class="navbar">
+        <h1 class="name">Onyx</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a class="ctn" href="https://discord.gg/svDuBwMty8">Discord</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>Onyx</h1>
+            <h2>1.8.9 Minecraft Utility Mod.</h2>
+            <!-- <h8><a class="ctn" href="" onclick="scrollToInformation()">Learn More</a></h8> -->
         </div>
-        <audio loop="" preload="auto" id="audio">
-                <source src="vid.mp4">
-            </audio>
-        <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
-                <source src="vid.mp4" type="video/mp4">
-            </video>
-        <section class="fullscreen text-content">
-            
-            <div id="center">
-                <h1">onyxware</h1>
-                <a></a>
-                <h2>to be continued</h2>
-                <h2>we will be back soon..</h2>
-                
-                <ul class="nav-links">
-                    <li><a href="privacy.html">Privacy Policy.</a></li>
-                    <li><a href="tos.html">Terms of Service.</a></li>
-                    <li><a class="ctn" href="https://discord.gg/svDuBwMty8">Discord</a></li>
-                </ul>
-            </div>
-          
-            <h8 id="by">made by fxy</h8>
-      </section></main>
+    </header>
 
+
+    <div class="cards">
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Clean</div>
+                <p class="cardText">Onyx is focused on CLEAN Visuals, Performance Friendly!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Cheap</div>
+                <p class="cardText">Our mission is to deliver the cheapest client for its features.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardContainer">
+                <div class="cardTitle">Customizable</div>
+                <p class="cardText">Every Feature in the client is customizable.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <p class="text-gray-400">Onyxware © 2019-2022, All Rights Reserved</p>
+            </div>
+            <div class="footer-content-right">
+                <a href="tos.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Terms of services</a>
+                <a href="privacy.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Privacy policy</a>
+                <a href="https://discord.gg/svDuBwMty8" target="_blank" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Discord</a>        
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
