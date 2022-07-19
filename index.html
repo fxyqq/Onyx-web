@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Onyx - Minecraft Utility</title>
-
-  <link rel="stylesheet" , href="style.css" />
-  <script defer src="resources/all.css"></script>
-  <script src="https://kit.fontawesome.com/4e5017ffdb.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <meta content="Onyx Client" property="og:title">
+    <meta content="Clean, Cheap, Bypassing." property="og:description">
+    <meta content="https://onyxware.xyz" property="og:url">
+    <title>Onyx - Minecraft Utility.</title>
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul class="nav__links">
-        <a href="index.html" id="navbar__logo">Onyx</a>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-      </ul>
-    </nav>
-    <div id="particles-js">
-      <div class="video-wrapper" id="vid1" style="visibility: visible">
-        <iframe
-          src="https://www.youtube.com/embed/UhJUY2rDc9M?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"></iframe>
-      </div>
+    <main>
+        <script>
+            function audioPlay() {
+                var audio = document.getElementById("audio");
+                audio.volume = 0.4;
+                audio.play()
+            }
 
-      <div class="video-wrapper1" id="vid2" style="visibility: hidden">
-        <iframe
-          src="https://www.youtube.com/embed/UhJUY2rDc9M?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1"></iframe>
-      </div>
+            function videoPlay() {
+                var video = document.getElementById("video");
+                video.play()
+            }
+        </script>
+        <input type="checkbox" autocomplete="off" id="overlay-toggle">
+        <div class="overlay fullscreen">
+            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="hover" style=" font-size: 0.6em;">click to enter...</span>
+            </label>
+        </div>
+        <audio loop="" preload="auto" id="audio">
+                <source src="vid.mp4">
+            </audio>
+        <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="vid.mp4" type="video/mp4">
+            </video>
+        <section class="fullscreen text-content">
+            
+            <div id="center">
+                <h1">onyxware</h1>
+                <a></a>
+                <h2>to be continued</h2>
+                <h2>we will be back soon..</h2>
+                
+                <ul class="nav-links">
+                    <li><a href="privacy.html">Privacy Policy.</a></li>
+                    <li><a href="tos.html">Terms of Service.</a></li>
+                    <li><a class="ctn" href="https://discord.gg/svDuBwMty8">Discord</a></li>
+                </ul>
+            </div>
+          
+            <h8 id="by">made by fxy</h8>
+      </section></main>
 
-      <div class="homeclass">
-        <section id="home">
-            <span>Onyx</span>
-        </section>
-      </div>
-      <div id="n_8x_Minecraft_Utility">
-        <span>1.8x Minecraft Utility</span>
-      </div>
-    </div>
-    <script src="resources/particles.js"></script>
-    <script src="resources/particle-app.js"></script>
-
-    <div class="bottom_thing">
-      <section id="about">
-        <h1>© Copyright 2021-2022 - Onyx Team</h1>
-      </section>
-      <li><a href="#terms">Terms of Service</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </div>
-  </header>
 </body>
-
 </html>
