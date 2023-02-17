@@ -4,55 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <meta content="estrogen" property="og:title">
-    <meta content="Clean, Cheap." property="og:description">
-    <meta content="https://estrogen.wtf" property="og:url">
-    <title>estrogen - Csgo Scripting Utility.</title>
+    <title>Axie - Reselling Service.</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet", href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link href="https://cdn.sellix.io/static/css/embed.css" rel="stylesheet">
+    <script src="https://cdn.sellix.io/static/js/embed.js"></script>
+    <meta content="Axie Reselling Service" property="og:title" />
+    <meta content="Fast, Trusted, 24 Hours Guarantee." property="og:description" />
+    <meta content="https://estrogen.wtf" property="og:url" />
 </head>
 <body>
-    <main>
-        <script>
-            function audioPlay() {
-                var audio = document.getElementById("audio");
-                audio.volume = 0.4;
-                audio.play()
-            }
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <div class="circle-bg">
+                    <i class="fas fa-star" id="icon"></i>
+                </div>
+                <a href="#home" id="logo">Axie</a>
+                <li class="home-link"><a href="#home">Home</a></li>
+                <li><a href="https://discord.gg/wcnemdRcmP">Customer Review</a></li>
+                <div class="line"></div>
+                <i id="currency-icon" class="fas fa-dollar-sign"></i>
+                <select id="currency-selector">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                </select>
+                <a class="cta" href="#"><button id="cart" data-sellix-product="63efcde616d22"><i class="fas fa-shopping-cart"></i></button></a>
+                <a class="cta" href="https://discord.gg/wcnemdRcmP"><button>Contact us <i class="fab fa-discord"></i></button></a>
+            </ul>
+        </nav>
 
-            function videoPlay() {
-                var video = document.getElementById("video");
-                video.play()
-            }
-        </script>
-        <input type="checkbox" autocomplete="off" id="overlay-toggle">
-        <div class="overlay fullscreen">
-            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
-                    <span class="hover" style=" font-size: 0.6em;">click to enter...</span>
-            </label>
+        <div class="header-content">
+            <h1> Experience a new level of game enhancement with our <span style="font-weight: 700">Products</span></h1>
+            <h2>1.8.9 Minecraft Utility Service.</h2>
+                        <!-- <h3><i class="fas fa-check-circle" style="color: rgb(179, 252, 150);"></i> Trusted <i class="fas fa-check-circle" style="color: rgb(179, 252, 150);"></i> Fast <i class="fas fa-check-circle" style="color: rgb(179, 252, 150);"></i> 12 Hours Guarantee</h3> -->
+            <h10><i class="fab fa-windows"></i> We only support windows 10 and above.</h10>
+            <a class="shopping" href="#scr" style="display: block;">
+                <button id="balls" href="#scr"><i class="fas fa-shopping-cart"></i> Start Shopping!</button>
+            </a></div>
+    </header>
+
+    <div class="custom-shape-divider-bottom-1676646791">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    
+    <div class="products-tab" id="scr">
+        <h1> We've got a client thats perfect for <span style="font-weight: 700">you</span></h1>
+        <div class="container-block"></div>
+        <div class="container-block-trans"></div>
+        <div class="container">
+            <h2 class="top">Flux</h2>
+            <h2 class="price">$14.99</h2>
+            <ul class="description">
+            <li><i class="fas fa-check"></i> Ghost Cheating features</li>
+            <li><i class="fas fa-check"></i> Rage Cheating features</li>
+            <li><i class="fas fa-check"></i> Clean visuals</li>
+            <li><i class="fas fa-check"></i> In game configurations</li>
+            </ul>
         </div>
-        <audio loop="" preload="auto" id="audio">
-                <source src="vid.mp4">
-            </audio>
-        <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
-                <source src="vid.mp4" type="video/mp4">
-            </video>
-        <section class="fullscreen text-content">
-            
-            <div id="center">
-                <h1">estrogen</h1>
-                <a></a>
-                <h2>now on neverlose.cc</h2>
-                
-                <ul class="nav-links">
-                    <li><a class="ctn" href="https://en.neverlose.cc/market/item?id=D1dLqz">estrogen [BETA]</a></li>
-                    <li><a class="ctn" href="https://en.neverlose.cc/market/item?id=p0qaI3">estrogen [DEBUG]</a></li>
-                    <!-- <li><a href="tos.html">Terms of Service.</a></li> -->
-                    <li><a class="ctn" href="https://discord.gg/3G7BRndJ">Discord</a></li>
-                </ul>
-            </div>
-          
-            <h8 id="by">made by fxy</h8>
-      </section></main>
+        <a class="order" href="#home" style="display: block;">
+            <button id="order" data-sellix-product="63efcde616d22"><i class="fas fa-external-link-alt"></i> Order now!</button>
+        </a>
+    </div>
 
+    <div class="cards">
+        <h1> Why choose <span style="font-weight: 700">Axie</span></h1>
+        <div class="card">
+          <div class="cardContainer">
+            <div class="cardTitle">Fast</div>
+            <p class="cardText">Recieve Your Order AS SOON AS POSSIBLE.</p>
+            <div class="icon-box"><i class="fas fa-shipping-fast" id="icon-box-font"></i></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardContainer">
+            <div class="cardTitle">Cheap</div>
+            <p class="cardText">Enjoy the best Minecraft experience for the lowest price with our products.</p>
+            <div class="icon-box-second"><i class="fas fa-money-bill-wave-alt" id="icon-box-font-second"></i></div>
+          </div>
+        </div>
+        <div class="card-b">
+          <div class="cardContainer">
+            <div class="cardTitle">12 Hours Guarantee</div>
+            <p class="cardText">We have a 12 hours Guarantee, If you have any issues with the client you can request a refund! or our team will help you with the problem.</p>
+            <div class="icon-box-third"><i class="fas fa-wave-square" id="icon-box-font-third"></i></div>  
+          </div>
+        </div>
+      </div>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-content-left">
+            <div class="circle-bg">
+                <i class="fas fa-star" id="icon"></i>
+            </div>
+            <a href="#home" id="logo-footer">Axie</a>
+            <p class="text-gray-400">Axie Service © Axie Team</p>
+            <p class="text-gray-400">All Rights Reserved</p>
+            <div class="line-footer">
+            </div>
+            <p class="info">TEST@test.com</p>
+            <!-- <a id="balls-ss" href="#contact"><button><i class="fab fa-discord"></i></button></a> -->
+          </div>
+          <div class="footer-content-right">
+            <li><a href="tos.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Terms of services</a></li>
+            <li><a href="privacy.html" class="text-gray-400 hover:text-white font-bold mr-2 ml-2" >Privacy policy</a></li>
+            <li><a href="https://discord.gg" target="_blank" class="text-gray-400 hover:text-white font-bold mr-2 ml-2">Discord</a></li>
+          </div>
+        </div>
+      </footer>
+
+      <div id="sellix-container"><div id="sellix-buttons-pointers-fix"><style>[data-sellix-product] * {
+        pointer-events: none;
+    }</style></div></div>
 </body>
 </html>
